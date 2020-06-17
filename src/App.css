@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: monospace;
 }
 
 .App-logo {
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.autoscroll-container button {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 900;
+  font-style: italic;
+  padding: 10px;
+  margin: 20px;
+
+  /* width: 250px; */
+}
+
+.autoscroll-container .scroll-list {
+  max-height: 250px;
+  overflow-y: scroll;
+
+  background-color: #515969;
+
+  text-align: left;
+  
+  color: lime;
+  font-size: 12.5px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.autoscroll-container .scroll-list p {
+  margin: 0;
+  padding: 0;
 }
